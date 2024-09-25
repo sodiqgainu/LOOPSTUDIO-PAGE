@@ -1,0 +1,30 @@
+.section{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
+}
+.first{
+    transform: translateX(-500px);
+    opacity: 0;
+}
+.second{
+margin-left: -100px;
+margin-top: 200px;
+padding: 70px;
+transform: translateX(500px);
+    opacity: 0;
+}
+
+
+@media (max-width:768px) {
+    .section{
+        grid-template-columns: repeat(1, 1fr);
+        gap:20px
+    }
+    .second{
+        margin-left: 0;
+        margin-top: 0;
+        padding: 20px;
+    }
+}

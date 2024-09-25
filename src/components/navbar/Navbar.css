@@ -1,0 +1,52 @@
+
+.hidden-links{
+ display: none;
+}
+.menu{
+  display: none;
+}
+@media (max-width: 768px) {
+
+    .hidden-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding-left: 30px;
+        gap:50px;
+        background-color: black;
+        position: fixed;
+        z-index: 4;
+       width:100%;
+       top:0;
+        height:100%;
+        gap:50px;
+       
+    }
+
+    .hidden-links a{
+        font-size: 20px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        
+    }
+
+    .show{
+        right:0;
+        transition: right 0.3s ease-in-out;
+    }
+
+    .hide{
+        right:-100%;
+        transition: right 0.3s ease-in-out;
+    }
+
+    .menu{
+        display:block;
+        z-index:10;
+    }
+
+    .heading{
+        z-index: 30;
+    }
+}
+
