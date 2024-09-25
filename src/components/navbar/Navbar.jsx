@@ -13,7 +13,7 @@ const Toggler = () => {
   return (
     <div className='flex md:justify-around justify-between px-7 py-16 items-center text-white '>
         <div className='heading'>
-            <h1 className='text-4xl font-bold'>loopstudios</h1>
+            <h1 className='text-4xl font-bold'>loopstudios work</h1>
         </div>
 
         <div className=' links md:flex hidden gap-[25px]'>
